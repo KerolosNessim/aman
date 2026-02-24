@@ -34,7 +34,7 @@ const NavbarSheet = ({ links, locale }: NavbarSheetProps) => {
         <SheetHeader>
           <SheetTitle>
             <Link href="/">
-              <p className="text-center text-2xl">Sky Limits</p>
+              <p className="text-center text-2xl">Aman</p>
             </Link>
           </SheetTitle>
           <SheetDescription asChild>
