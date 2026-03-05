@@ -65,9 +65,9 @@ const Footer = async () => {
       viewport={{ once: true }}
       className=" bg-primary-dark-active"
     >
-      <div className="container py-16 text-white flex items-start justify-between max-lg:flex-wrap max-lg:gap-8">
+      <div className="container py-16 text-white ">
         {/* logo and socials */}
-        <div className="flex flex-col gap-4 lg:basis-80   max-lg:basis-full max-lg:items-center">
+        <div className="flex flex-col gap-4 items-center">
           <Image
             src={settings?.site_logo || "/aman-logo.png"}
             alt="logo"
@@ -92,7 +92,7 @@ const Footer = async () => {
           </div>
         </div>
         {/* product */}
-        <div className="flex flex-col gap-4   ">
+        {/* <div className="flex flex-col gap-4   ">
           <h3 className="text-body-xl ">{t("sections.product.title")}</h3>
           <ul className="space-y-4">
             {t
@@ -108,9 +108,9 @@ const Footer = async () => {
                 </li>
               ))}
           </ul>
-        </div>
+        </div> */}
         {/* company */}
-        <div className="flex flex-col gap-4   ">
+        {/* <div className="flex flex-col gap-4   ">
           <h3 className="text-body-xl ">{t("sections.company.title")}</h3>
           <ul className="space-y-4">
             {t
@@ -126,9 +126,9 @@ const Footer = async () => {
                 </li>
               ))}
           </ul>
-        </div>
+        </div> */}
         {/* support */}
-        <div className="flex flex-col gap-4   ">
+        {/* <div className="flex flex-col gap-4   ">
           <h3 className="text-body-xl ">{t("sections.support.title")}</h3>
           <ul className="space-y-4">
             {t
@@ -144,9 +144,9 @@ const Footer = async () => {
                 </li>
               ))}
           </ul>
-        </div>
+        </div> */}
         {/* contact */}
-        <div className="flex flex-col gap-4   ">
+        {/* <div className="flex flex-col gap-4   ">
           <h3 className="text-body-xl ">{t("sections.contact.title")}</h3>
           <ul className="space-y-4">
             {settings?.site_email && (
@@ -178,7 +178,7 @@ const Footer = async () => {
               </li>
             )}
           </ul>
-        </div>
+        </div> */}
       </div>
 
       <div className="container  py-6 border-t text-white">
