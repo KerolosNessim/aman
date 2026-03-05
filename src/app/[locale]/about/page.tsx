@@ -1,20 +1,18 @@
+import { getCompanyInfo, getWhoUs } from "@/api/about";
 import MissonSection from "@/components/about/misson-section";
 import ContactBox from "@/components/home/contact-box";
 import GoalSlider from "@/components/home/goal-slider";
 import TeamSection from "@/components/home/team-section";
+import Counters from "@/components/shared/counters";
 import CustomBadage from "@/components/shared/custom-badage";
 import CustomLink from "@/components/shared/custom-link";
 import CustomProgress from "@/components/shared/custom-progress";
 import Footer from "@/components/shared/footer";
 import Navbar from "@/components/shared/navbar";
-import { Button } from "@/components/ui/button";
 import { InteractiveGridPattern } from "@/components/ui/interactive-grid-pattern";
 import * as motion from "motion/react-client";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
-import { FaArrowRightLong } from "react-icons/fa6";
-import { getCompanyInfo, getWhoUs } from "@/api/about";
-import Counters from "@/components/shared/counters";
 const AboutPage = async () => {
   const t = await getTranslations("about");
   let data;
